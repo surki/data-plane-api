@@ -45,4 +45,6 @@ message Address {
     SocketAddress socket_address = 1;
     Pipe pipe = 2;
   }
+  uint64 id = 3;
+  uint64 max_connections = 4;
 }
